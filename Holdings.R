@@ -14,9 +14,10 @@ portfolio=hash(
         #US STOCKS
            "AAPL"=5, "COST"=50, "GOOGL"=6, "FBT"=50, "RGI"=50, "RYU"=100+25, "PSJ"=75, "SCHA"=150+50,
            "BRK-B"=50, "SIRI"=1000, "V"=54-16, 
-           "TSLA"=10, "EWRS"=200+50, "PBS"=100, "RTM"=50,
+           "TSLA"=10, "PBS"=100, "RTM"=50,
           "AMZN"=4,
-  #looks like 200 EWRM becomes 200 EWMC on 29 Jan 2016 - add handling for symbol change
+  # looks like 200 EWRM becomes 200 EWMC on 29 Jan 2016 - add handling for symbol change
+  # AND 150 EWRS becomes 150 EWSC
         #WORLD STOCKS
            "VWO"=150+100, "YAO"=150, "VTI"=109, "EWGS"=200, "VEA"=50+100, "IXJ"=100, "IXP"=125,
            "JPP"=150, "SCHC"=250, "ACIM"=50+50, "FNDE"=200+200, "SCHF"=300, "LIT"=300/2,
